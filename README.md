@@ -1,3 +1,2 @@
 # ScreenShot
-
-![QR Code Generator](https://github.com/toufikumar0009/QR-Code-Generator/assets/128703689/1e9e3c05-3399-4967-9ff4-3d13ba7726d7)
+![QR Code Generator(1)](https://github.com/toufikumar0009/QR-Code-Generator/assets/128703689/25424b15-1449-4874-9a4b-097d156ee1e7)
