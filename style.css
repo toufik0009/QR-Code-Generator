@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+html {
+  color-scheme: dark light;
+}
+.container {
+  width: 400px;
+  padding: 25px 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  border-radius: 10px;
+  color: black;
+  border: 1px solid gray;
+  box-shadow: 0 0 10px #fff;
+  user-select: none;
+  animation: anim 2s alternate infinite;
+}
+@keyframes anim {
+  to {
+    box-shadow: 0 0 10px #fff;
+  }
+  from {
+    box-shadow: 0px 0px 20px #fff;
+  }
+}
+.container p {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 8px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid gray;
+  padding: 2px 8px;
+  outline: none;
+  margin: 10px 0 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: #fff;
+  /* user-select: none; */
+  color: black;
+}
+.container button {
+  width: 100%;
+  height: 40px;
+  background: rgb(12, 170, 232);
+  border: none;
+  font-size: 16px;
+  box-shadow: 2px 5px 10px gray;
+  border-radius: 12px;
+  outline: none;
+  padding: 10px 0px;
+  margin: 20px 0;
+  font-weight: 500;
+}
+.container #download {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  background: rgb(12, 170, 232);
+  padding: 10px;
+  border-radius: 50px;
+  display: none;
+}
+::placeholder {
+  color: rgb(12, 39, 39);
+}
+.container button:is(:hover, :focus) {
+  box-shadow: inset 2px 5px 10px rgb(4, 4, 4);
+}
+.box {
+   position: relative;
+   left: 50%;
+   transform: translate(-30%,-0%);
+}
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .container {
+        width: 300px;
+        padding: 15px;
+      }
+      .box {
+        position: relative;
+        left: 40%;
+        transform: translate(-30%,-0%);
+     }
+     html{
+        background: gray;
+        scroll-behavior: smooth;
+     }
+
+}
