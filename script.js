@@ -28,7 +28,7 @@ QrGen.addEventListener("click", () => {
       link.click();
 
     } catch (error) {
-      console.error("Failed to download image:", error);
+      console.error("Failed to Download image:", error);
     }
   });
 });
